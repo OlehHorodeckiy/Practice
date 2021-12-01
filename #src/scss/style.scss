@@ -114,7 +114,7 @@ body {
       margin-bottom: -10px;
     }
     .about-information__text {
-      font-family: Gotham Pro;
+      font-family: 'Gotham Pro';
       font-size: 14px;
       line-height: 150%;
       color: #303030;
@@ -154,6 +154,7 @@ body {
         font-size: 16px;
         line-height: 26px;
         color: #303030;
+        font-weight: bold;
       }
     }
   }
@@ -217,7 +218,7 @@ body {
   margin-bottom: 140px;
   .container {
     .support__names {
-      font-family: Gotham Pro;
+      font-family: 'Gotham Pro';
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -249,7 +250,7 @@ body {
             color: #303030;
           }
           .item-suport__text {
-            font-family: Gotham Pro;
+            font-family: 'Gotham Pro';
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
@@ -270,6 +271,7 @@ body {
       text-align: center;
       color: #303030;
       margin-bottom: 25px;
+      font-weight: bold;
     }
     .service-advantage__row {
       display: flex;
@@ -317,6 +319,7 @@ body {
           letter-spacing: 0.17em;
           color: #34449c;
           margin-top: 60px;
+          font-weight: bold;
         }
         .advatage__text {
           font-size: 14px;
@@ -329,6 +332,9 @@ body {
           font-size: 14px;
           line-height: 150%;
           color: #404040;
+          .triagle {
+            margin-right: 10px;
+          }
         }
         .list__text {
         }
@@ -353,12 +359,13 @@ body {
           );
           box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
           margin-right: 20px;
+          border-radius: 20px;
           .item-service__icon {
             padding: 37px 0px 26px 32px;
           }
           .item-service__title {
             font-style: normal;
-            font-weight: normal;
+            font-weight: bold;
             font-size: 16px;
             line-height: 20px;
             color: #404040;
@@ -427,7 +434,7 @@ body {
           border-radius: 20px;
         }
         .items__title {
-          font-weight: normal;
+          font-weight: bold;
           font-size: 16px;
           line-height: 36px;
           color: #404040;
@@ -492,6 +499,8 @@ body {
         line-height: 30px;
         text-align: center;
         color: #273895;
+        text-decoration: none;
+        border-bottom: 1px dashed #2741cf;
       }
     }
     .tariff__application {
@@ -544,6 +553,9 @@ body {
           font-size: 16px;
           line-height: 24px;
           margin-bottom: 8px;
+          .triagle {
+            margin-right: 10px;
+          }
         }
       }
       .list__right {
@@ -553,6 +565,9 @@ body {
           font-size: 16px;
           line-height: 24px;
           margin-bottom: 16px;
+          .triagle {
+            margin-right: 10px;
+          }
         }
       }
       .more-detalist {
@@ -633,6 +648,9 @@ body {
             line-height: 24px;
             color: #404040;
             margin-bottom: 16px;
+            .triagle {
+              margin-right: 10px;
+            }
           }
           .item-prices__link {
             font-size: 16px;
@@ -692,6 +710,12 @@ body {
   margin-bottom: 140px;
   .container {
     .started-title {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+      color: #303030;
+      margin-bottom: 48px;
     }
     .started-information {
     }
@@ -1042,6 +1066,9 @@ body {
   .footer .wrapper .footer__top .footer__left {
     display: block;
   }
+  .items .container .items-info .items__row .items__body {
+    margin-left: 0px;
+  }
   .service-advantage
     .container
     .service-advantage__row
@@ -1140,6 +1167,7 @@ body {
   }
   .expertise .container .expertise__row .expertise__body .expertise__logo {
     margin: 0px;
+    margin-bottom: 24px;
   }
   .expertise .container .expertise__row .expertise__body .expertise__title {
     font-weight: bold;
@@ -1153,6 +1181,7 @@ body {
     line-height: 150%;
     text-align: center;
     color: #404040;
+    margin-bottom: 24px;
   }
   .section-about .wrapper .about__title {
     font-weight: bold;
@@ -1276,6 +1305,20 @@ body {
   }
   .support {
     margin-bottom: 0px;
+  }
+  .tariff__body .container .tariff__body-top .tariff__title {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #303030;
+  }
+  .tariff__body .container .tariff__body-top .tarif__text {
+    font-size: 12px;
+  }
+  .tariff__body .container .tariff__body-top .button__month {
+    width: 106px;
+    height: 33px;
+    margin-right: 25px;
   }
 }
 

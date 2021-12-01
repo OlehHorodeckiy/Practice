@@ -181,7 +181,7 @@ body {
 }
 
 .section-about .wrapper .about-information__text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-size: 14px;
   line-height: 150%;
   color: #303030;
@@ -224,6 +224,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #303030;
+  font-weight: bold;
 }
 
 .expertise .container .expertise__row {
@@ -284,7 +285,7 @@ body {
 }
 
 .support .container .support__names {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -325,7 +326,7 @@ body {
 }
 
 .support .container .support__row .support__colum .item__suport .item-suport__text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -339,6 +340,7 @@ body {
   text-align: center;
   color: #303030;
   margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .service-advantage .container .service-advantage__row {
@@ -385,6 +387,7 @@ body {
   letter-spacing: 0.17em;
   color: #34449c;
   margin-top: 60px;
+  font-weight: bold;
 }
 
 .service-advantage .container .service-advantage__row .service-advantage__colums .advatage__text {
@@ -399,6 +402,10 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #404040;
+}
+
+.service-advantage .container .service-advantage__row .service-advantage__colums .advantage__list .triagle {
+  margin-right: 10px;
 }
 
 .service-row .wrapper .service__row {
@@ -416,6 +423,7 @@ body {
   background: linear-gradient(236.29deg, #ffffff 29.99%, #f4f9ff 79.17%);
   box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
   margin-right: 20px;
+  border-radius: 20px;
 }
 
 .service-row .wrapper .service__row .service__colum .service__item .item-service__icon {
@@ -424,7 +432,7 @@ body {
 
 .service-row .wrapper .service__row .service__colum .service__item .item-service__title {
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #404040;
@@ -493,7 +501,7 @@ body {
 }
 
 .items .container .items-info .items__row .items__title {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 36px;
   color: #404040;
@@ -562,6 +570,8 @@ body {
   line-height: 30px;
   text-align: center;
   color: #273895;
+  text-decoration: none;
+  border-bottom: 1px dashed #2741cf;
 }
 
 .tariff__body .container .tariff__application {
@@ -624,12 +634,20 @@ body {
   margin-bottom: 8px;
 }
 
+.tariff__body .container .tariff__application .list__left .list__content .triagle {
+  margin-right: 10px;
+}
+
 .tariff__body .container .tariff__application .list__right .list__content {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 16px;
+}
+
+.tariff__body .container .tariff__application .list__right .list__content .triagle {
+  margin-right: 10px;
 }
 
 .tariff__body .container .tariff__application .more-detalist {
@@ -716,6 +734,10 @@ body {
   margin-bottom: 16px;
 }
 
+.prices .container .prices__row .prices__colums .item-prices .item-prices__text .triagle {
+  margin-right: 10px;
+}
+
 .prices .container .prices__row .prices__colums .item-prices .item-prices__link {
   font-size: 16px;
   line-height: 40px;
@@ -771,6 +793,15 @@ body {
 
 .started {
   margin-bottom: 140px;
+}
+
+.started .container .started-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #303030;
+  margin-bottom: 48px;
 }
 
 .started .container .started__row {
@@ -1145,6 +1176,10 @@ body {
     display: block;
   }
 
+  .items .container .items-info .items__row .items__body {
+    margin-left: 0px;
+  }
+
   .service-advantage .container .service-advantage__row .service-advantage__colums .advatage__text {
     font-size: 12px;
     line-height: 150%;
@@ -1226,6 +1261,7 @@ body {
 
   .expertise .container .expertise__row .expertise__body .expertise__logo {
     margin: 0px;
+    margin-bottom: 24px;
   }
 
   .expertise .container .expertise__row .expertise__body .expertise__title {
@@ -1241,6 +1277,7 @@ body {
     line-height: 150%;
     text-align: center;
     color: #404040;
+    margin-bottom: 24px;
   }
 
   .section-about .wrapper .about__title {
@@ -1368,6 +1405,23 @@ body {
 
   .support {
     margin-bottom: 0px;
+  }
+
+  .tariff__body .container .tariff__body-top .tariff__title {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #303030;
+  }
+
+  .tariff__body .container .tariff__body-top .tarif__text {
+    font-size: 12px;
+  }
+
+  .tariff__body .container .tariff__body-top .button__month {
+    width: 106px;
+    height: 33px;
+    margin-right: 25px;
   }
 }
 
