@@ -130,6 +130,7 @@ body {
   height: 50px;
   left: 1245px;
   top: 56px;
+  border: none;
   color: #ffffff;
   background: #273895;
   border-radius: 15px;
@@ -195,6 +196,7 @@ body {
   color: #e5e5e5;
   background: #273895;
   border-radius: 15px;
+  border: none;
 }
 
 .help_content .wrapper .helper_content {
@@ -225,6 +227,7 @@ body {
   line-height: 26px;
   color: #303030;
   font-weight: bold;
+  text-align: left;
 }
 
 .expertise .container .expertise__row {
@@ -379,6 +382,7 @@ body {
   border-radius: 7.95745px;
   padding: 16px 23px;
   color: #e5e5e5;
+  border: none;
 }
 
 .service-advantage .container .service-advantage__row .service-advantage__colums .advatage__title {
@@ -526,6 +530,7 @@ body {
   border-radius: 15px;
   align-items: center;
   color: #e5e5e5;
+  border: none;
 }
 
 .tariff__body {
@@ -553,6 +558,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 32px;
+  border: none;
 }
 
 .tariff__body .container .tariff__body-top .button__month {
@@ -562,6 +568,7 @@ body {
   width: 133px;
   height: 50px;
   color: #e5e5e5;
+  border: none;
 }
 
 .tariff__body .container .tariff__body-top .button__year {
@@ -572,6 +579,7 @@ body {
   color: #273895;
   text-decoration: none;
   border-bottom: 1px dashed #2741cf;
+  border: none;
 }
 
 .tariff__body .container .tariff__application {
@@ -673,6 +681,7 @@ body {
   border-radius: 15px;
   text-align: center;
   color: #ffffff;
+  border: none;
 }
 
 .prices .container .prices__row .prices__colums {
@@ -759,6 +768,7 @@ body {
   color: #e5e5e5;
   background: #273895;
   border-radius: 15px;
+  border: none;
 }
 
 .section-social {
@@ -860,6 +870,7 @@ body {
   color: #e5e5e5;
   width: 232px;
   height: 56px;
+  border: none;
 }
 
 .prognoz {
@@ -973,6 +984,7 @@ body {
   background: #273895;
   border-radius: 15px;
   color: #e5e5e5;
+  border: none;
 }
 
 .footer {
@@ -1385,6 +1397,7 @@ body {
     background: #273895;
     border-radius: 15px;
     margin-left: 70px;
+    border: none;
   }
 
   .service-advantage .container .service-advantage__row .service-advantage__colums .advantage__list {

@@ -60,6 +60,7 @@ body {
       height: 50px;
       left: 1245px;
       top: 56px;
+      border: none;
 
       color: #ffffff;
       background: #273895;
@@ -127,6 +128,7 @@ body {
       color: #e5e5e5;
       background: #273895;
       border-radius: 15px;
+      border: none;
     }
   }
 }
@@ -155,6 +157,7 @@ body {
         line-height: 26px;
         color: #303030;
         font-weight: bold;
+        text-align: left;
       }
     }
   }
@@ -310,6 +313,7 @@ body {
             border-radius: 7.95745px;
             padding: 16px 23px;
             color: #e5e5e5;
+            border: none;
           }
         }
 
@@ -456,6 +460,7 @@ body {
           border-radius: 15px;
           align-items: center;
           color: #e5e5e5;
+          border: none;
         }
       }
     }
@@ -484,6 +489,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-bottom: 32px;
+        border: none;
       }
       .button__month {
         margin-right: 64px;
@@ -492,6 +498,7 @@ body {
         width: 133px;
         height: 50px;
         color: #e5e5e5;
+        border: none;
       }
       .button__year {
         font-weight: normal;
@@ -501,6 +508,7 @@ body {
         color: #273895;
         text-decoration: none;
         border-bottom: 1px dashed #2741cf;
+        border: none;
       }
     }
     .tariff__application {
@@ -589,6 +597,7 @@ body {
           border-radius: 15px;
           text-align: center;
           color: #ffffff;
+          border: none;
         }
       }
     }
@@ -672,6 +681,7 @@ body {
             color: #e5e5e5;
             background: #273895;
             border-radius: 15px;
+            border: none;
           }
         }
       }
@@ -770,6 +780,7 @@ body {
         color: #e5e5e5;
         width: 232px;
         height: 56px;
+        border: none;
       }
     }
   }
@@ -884,6 +895,7 @@ body {
           background: #273895;
           border-radius: 15px;
           color: #e5e5e5;
+          border: none;
         }
       }
     }
@@ -1278,6 +1290,7 @@ body {
     background: #273895;
     border-radius: 15px;
     margin-left: 70px;
+    border: none;
   }
   .service-advantage
     .container
