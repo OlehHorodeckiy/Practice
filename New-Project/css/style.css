@@ -353,6 +353,7 @@ body {
 .support .container .support__row .support__colum .item__suport .item-suport__img {
   display: flex;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .support .container .support__row .support__colum .item__suport .item-suport__title {
@@ -361,6 +362,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #303030;
+  margin-bottom: 16px;
 }
 
 .support .container .support__row .support__colum .item__suport .item-suport__text {
@@ -703,6 +705,9 @@ body {
 
 .tariff__body .container .tariff__application .more-detalist .link-prise {
   text-decoration: none;
+  color: #2741d0;
+  font-size: 16px;
+  line-height: 40px;
 }
 
 .tariff__body .container .tariff__application .aplication__but {
@@ -787,10 +792,14 @@ body {
   line-height: 40px;
   color: #2741d0;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .prices .container .prices__row .prices__colums .item-prices .item-prices__link .link-prise {
   text-decoration: none;
+  color: #2741d0;
+  font-size: 16px;
+  line-height: 40px;
 }
 
 .prices .container .prices__row .prices__colums .item-prices .item-prices__link .link-prise .row-link {

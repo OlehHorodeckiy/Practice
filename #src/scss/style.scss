@@ -285,6 +285,7 @@ body {
           .item-suport__img {
             display: flex;
             justify-content: center;
+            margin-bottom: 16px;
           }
           .item-suport__title {
             font-style: normal;
@@ -292,6 +293,7 @@ body {
             font-size: 16px;
             line-height: 150%;
             color: #303030;
+            margin-bottom: 16px;
           }
           .item-suport__text {
             font-family: 'Gotham Pro';
@@ -627,6 +629,9 @@ body {
         margin-bottom: 16px;
         .link-prise {
           text-decoration: none;
+          color: #2741d0;
+          font-size: 16px;
+          line-height: 40px;
         }
       }
       .aplication__but {
@@ -707,8 +712,12 @@ body {
             line-height: 40px;
             color: #2741d0;
             text-decoration: none;
+            margin-bottom: 16px;
             .link-prise {
               text-decoration: none;
+              color: #2741d0;
+              font-size: 16px;
+              line-height: 40px;
               .row-link {
                 margin-left: 16px;
               }
