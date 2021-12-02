@@ -172,6 +172,7 @@ body {
 }
 
 .section-about .wrapper .about__title {
+  font-family: "Gotham Pro";
   white-space: pre-line;
   font-style: normal;
   font-weight: bold;
@@ -268,19 +269,53 @@ body {
   justify-content: flex-end;
 }
 
-.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content {
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content1 {
   background: linear-gradient(236.29deg, #ffffff 29.99%, #f4f9ff 79.17%);
   text-align: center;
   box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
   border-radius: 10px;
-  width: 40%;
+  padding: 32px;
 }
 
-.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content .expertise__content-text {
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content1 .expertise__content-text {
   font-size: 14px;
   line-height: 150%;
   white-space: pre-line;
   color: #404040;
+  margin-top: 10px;
+}
+
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content2 {
+  background: linear-gradient(236.29deg, #ffffff 29.99%, #f4f9ff 79.17%);
+  text-align: center;
+  box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+  border-radius: 10px;
+  margin-bottom: 17px;
+  padding: 24px;
+}
+
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content2 .expertise__content-text {
+  font-size: 14px;
+  line-height: 150%;
+  white-space: pre-line;
+  color: #404040;
+  margin-top: 10px;
+}
+
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content3 {
+  background: linear-gradient(236.29deg, #ffffff 29.99%, #f4f9ff 79.17%);
+  text-align: center;
+  box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content3 .expertise__content-text {
+  font-size: 14px;
+  line-height: 150%;
+  white-space: pre-line;
+  color: #404040;
+  margin-top: 10px;
 }
 
 .support {
@@ -1162,6 +1197,10 @@ body {
     width: 540px;
   }
 
+  .help_content .wrapper .helper_content .item-help__text {
+    text-align: center;
+  }
+
   .footer .wrapper .footer__copy {
     display: block;
     text-align: center;
@@ -1462,5 +1501,17 @@ body {
   .container {
     width: 100%;
     padding: 0 15px;
+  }
+
+  .expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content1 {
+    padding: 16px;
+  }
+
+  .expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content2 {
+    padding: 16px;
+  }
+
+  .expertise .container .expertise__row .expertise__statistick .expertise__content-items .expertise__content3 {
+    padding: 16px;
   }
 }
